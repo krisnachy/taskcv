@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio Website</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="profil.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
@@ -21,9 +21,9 @@
     <nav class="navbar">
         <div class="max-width">
             <ul class="menu">
-                <li><a href="#" class="menu-btn">Home</a></li>
+                <li><a href="../index.html" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#services" class="menu-btn">Project</a></li>
+                <li><a href="#services" class="menu-btn">Pekerjaan</a></li>
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
@@ -39,7 +39,7 @@
             <h2 class="title">Tentang Saya</h2>
             <div class="about-content">
                 <div class="column left">
-                    <img src="images/A.png" alt="">
+                    <img src="../images/A.png" alt="">
                 </div>
                 <div class="column right">
                     <div class="text">Call me Krisna and I'm a <span class="typing"></span></div>
@@ -104,7 +104,7 @@
     <!-- Halaman Kemampuan -->
     <section class="skills" id="skills">
         <div class="max-width">
-            <h2 class="title">My skills</h2>
+            <h2 class="title">Skill Saya</h2>
             <div class="skills-content">
                 <div class="column left">
                     <div class="text">Kemampuan saya saat ini</div>
@@ -170,19 +170,28 @@
         <div class="max-width">
             <h2 class="title">Kontak Saya</h2>
             <div class="contact-content">
-                <div class="column left">
-                    <div class="icons">
-                        <div class="row">
-                            <table>
-                                <tr>
-                                    <td><i class="fab fa-linkedin"></i></td>
-                                    <td><i class="fab fa-instagram"></i></td>
-                                    <td><i class="fab fa-twitter"></i></td>
-                                </tr>
-                            </table>
+                    <div class="card">
+                        <a target="_blank" href="https://www.linkedin.com/in/krisna-cahya-yuana/">
+                            <div class="box">
+                                <i class="fab fa-linkedin"></i>
+                                <div class="text">Linkedin</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <i class="fab fa-instagram"></i>
+                            <div class="text">Instagram</div>
                         </div>
                     </div>
-                </div>
+                    <div class="card">
+                        <a target="_blank" href="https://twitter.com/krisnavski">
+                            <div class="box">
+                            <i class="fab fa-twitter"></i>
+                            <div class="text">Twitter</div>
+                        </div>
+                        </a>
+                    </div>
             </div>
         </div>
     </section>
